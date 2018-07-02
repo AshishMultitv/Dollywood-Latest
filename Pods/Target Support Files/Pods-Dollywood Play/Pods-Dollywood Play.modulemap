@@ -1,0 +1,6 @@
+framework module Pods_Dollywood_Play {
+  umbrella header "Pods-Dollywood Play-umbrella.h"
+
+  export *
+  module * { export * }
+}

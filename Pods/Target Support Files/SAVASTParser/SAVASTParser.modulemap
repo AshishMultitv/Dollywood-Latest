@@ -1,0 +1,6 @@
+framework module SAVASTParser {
+  umbrella header "SAVASTParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

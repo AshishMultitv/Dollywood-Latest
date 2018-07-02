@@ -1,0 +1,6 @@
+framework module SAVideoPlayer {
+  umbrella header "SAVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

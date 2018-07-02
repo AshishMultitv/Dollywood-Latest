@@ -1,0 +1,6 @@
+framework module SAJsonParser {
+  umbrella header "SAJsonParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

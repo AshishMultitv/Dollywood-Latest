@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Catlistdata" representedClassName="Catlistdata" syncable="YES" codeGenerationType="class">
+        <attribute name="catlistdatadict" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Downloadvideoid" representedClassName="Downloadvideoid" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Favriout" representedClassName="Favriout" syncable="YES" codeGenerationType="class">
+        <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Homedata" representedClassName="Homedata" syncable="YES" codeGenerationType="class">
+        <attribute name="homedatadict" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Logindata" representedClassName="Logindata" syncable="YES" codeGenerationType="class">
+        <attribute name="logindatadict" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Sidemenudata" representedClassName="Sidemenudata" syncable="YES" codeGenerationType="class">
+        <attribute name="sidemenudatadict" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Slidermenu" representedClassName="Slidermenu" syncable="YES" codeGenerationType="class">
+        <attribute name="slidemenudict" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="VideoDownload" representedClassName="VideoDownload" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videodownloaddata" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="videoid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Zonerlistdata" representedClassName="Zonerlistdata" syncable="YES" codeGenerationType="class">
+        <attribute name="zonerid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zonerlistdatadict" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Catlistdata" positionX="-18" positionY="27" width="128" height="75"/>
+        <element name="Downloadvideoid" positionX="-36" positionY="27" width="128" height="75"/>
+        <element name="Favriout" positionX="-36" positionY="18" width="128" height="75"/>
+        <element name="Homedata" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Logindata" positionX="-36" positionY="18" width="128" height="60"/>
+        <element name="Sidemenudata" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="Slidermenu" positionX="-36" positionY="9" width="128" height="60"/>
+        <element name="VideoDownload" positionX="-36" positionY="18" width="128" height="105"/>
+        <element name="Zonerlistdata" positionX="-36" positionY="18" width="128" height="75"/>
+    </elements>
+</model>
